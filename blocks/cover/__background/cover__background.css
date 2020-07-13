@@ -24,7 +24,7 @@ z-index: 0;
   
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 414px) {
 
    .cover__background {
       height: 200px;

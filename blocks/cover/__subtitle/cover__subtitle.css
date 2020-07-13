@@ -6,7 +6,7 @@
     line-height: 1.22;
     position: relative;
     top: 277px;
-    left: calc(50% - 180px);
+    margin: auto;
     max-width: 360px;
     text-align: center;
     z-index: 2;
@@ -29,12 +29,13 @@
   
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 414px) {
 
-   .cover__title {
+   .cover__subtitle {
       top: 49px;
       font-size: 14px;
       line-height: 1.14;
+      width: 288px;
    }
  
  }
