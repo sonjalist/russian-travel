@@ -1,0 +1,24 @@
+.header__lang-link {
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: white;
+}
+
+.header__lang-link:first-child {
+    text-decoration-line: underline;
+    margin-right: 18px;
+}
+
+.header__lang-link:hover {
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 320px) {
+
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 1.33;
+    }
+  
+  }
