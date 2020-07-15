@@ -5,6 +5,10 @@
     color: white;
 }
 
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
 .header__lang-link:first-child {
     margin-right: 18px;
 }

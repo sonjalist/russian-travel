@@ -1,6 +1,6 @@
 .place__title {
     margin: 0;
-    font-size: 76px;
+    font-size: 72px;
     line-height: 1.06;
     font-weight: 900;
     vertical-align: baseline;
@@ -18,7 +18,7 @@
   
   }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 650px) {
 
     .place__title {
        font-size: 32px;
