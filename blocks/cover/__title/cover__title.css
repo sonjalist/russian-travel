@@ -1,9 +1,6 @@
 .cover__title {
     margin: 0;
-    position: relative;
-    display: flex;
-    margin: auto;
-    padding-top: 245px;
+    margin-top: 245px;
     color: white;
     font-size: 72px;
     line-height: 1.06;
@@ -18,15 +15,15 @@
 @media screen and (max-width: 1024px) {
 
     .cover__title {
-       top: 195px;
+      margin-top: 195px;
     }
   
   }
 
   @media screen and (max-width: 768px) {
-
+     
     .cover__title {
-       top: 115px;
+      margin-top: 115px;
     }
   
   }
@@ -34,7 +31,7 @@
   @media screen and (max-width: 414px) {
 
    .cover__title {
-      top: 33px;
+      margin-top: 33px;
       font-size: 32px;
       line-height: 1.09;
       max-width: 288px;

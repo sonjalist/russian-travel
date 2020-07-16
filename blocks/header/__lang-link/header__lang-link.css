@@ -3,10 +3,11 @@
     line-height: 1.17;
     text-decoration: none;
     color: white;
+    transition: opacity 0.4s linear;
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
+    opacity: 0.8;
 }
 
 .header__lang-link:first-child {
