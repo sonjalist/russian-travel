@@ -11,7 +11,7 @@
 }
 
 .header__lang-link:first-child {
-    margin-right: 18px;
+    margin-left: 18px;
 }
 
 @media screen and (max-width: 320px) {
